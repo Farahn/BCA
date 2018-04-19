@@ -13,3 +13,4 @@ Requirements:
 
 Tensorflow 1.0 or greater. 
 
+Codes are just for testing, there has been no hyper parameter tuning. 
