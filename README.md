@@ -2,7 +2,7 @@
 Extension of hierarchical attention network for text classification. 
 
 Tensorflow implementation of basic hierarchical attention network (HAN) from  "Hierarchical Attention Networks for Document Classification", Zichao Yang et al. (http://www.aclweb.org/anthology/N16-1174).
-There is also an extension to include bi-directional context across sentences (BCA). 
+There is also an extension to include bi-directional context across sentences (BCA). The original (non-hierarchical) implementation was from https://github.com/ilivans/tf-rnn-attention
 
 The models have been set up to train and validate on yelp data (https://www.yelp.com/dataset/challenge). 
 The data (review.json) can be preprocessed using yelp_preprocess.py. 
