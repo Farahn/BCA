@@ -14,3 +14,9 @@ Requirements:
 Tensorflow 1.0 or greater. 
 
 Codes are just for testing, there has been no hyper parameter tuning. 
+
+##Ordinal Regression
+
+The training scripts have the option of using ordinal regression or logistic regression. The module ordloss.py has a basic implementation of ordinal regression[1] for Tensorflow. Explanation of the model is available at http://fa.bianp.net/blog/2013/logistic-ordinal-regression/.
+
+[1] "Regression models for ordinal data", P. McCullagh, Journal of the royal statistical society. Series B (Methodological), 1980
