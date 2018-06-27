@@ -37,7 +37,7 @@ from sklearn.metrics import accuracy_score
 # Read glove embeddings
 
 filepath_glove = 'glove.6B.200d.txt'
-folder_path = '/g/ssli/data/lingcomp'
+folder_path = ''
 #folder_path = 'embedding'
 fp = os.path.join(folder_path, filepath_glove)
 
