@@ -143,7 +143,7 @@ if ordinal:
 
 else:
     W = tf.Variable(tf.truncated_normal([drop.get_shape()[1].value, num_classes], stddev=0.1))  
-    b = tf.Variable(tf.constant(0., shape=[num_classes]))
+    b = tf.Variable(tf.truncated_normal([num_classes]))
     y_hat_ = tf.nn.xw_plus_b(drop, W, b)
     #y_hat_ = tf.squeeze(y_hat)
     # Cross-entropy loss and optimizer initialization
